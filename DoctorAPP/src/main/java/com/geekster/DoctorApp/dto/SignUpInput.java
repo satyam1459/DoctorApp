@@ -1,4 +1,4 @@
-package com.geekster.doctorApp.dto;
+package com.geekster.DoctorApp.dto;
 
 
 import lombok.AllArgsConstructor;

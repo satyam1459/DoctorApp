@@ -1,4 +1,4 @@
-package com.geekster.doctorApp;
+package com.geekster.DoctorApp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

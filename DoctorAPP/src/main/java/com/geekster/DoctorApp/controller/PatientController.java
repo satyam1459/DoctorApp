@@ -1,15 +1,13 @@
-package com.geekster.doctorApp.controller;
+package com.geekster.DoctorApp.controller;
 
-
-import com.geekster.doctorApp.dto.SignInInput;
-import com.geekster.doctorApp.dto.SignInOutput;
-import com.geekster.doctorApp.dto.SignUpInput;
-import com.geekster.doctorApp.dto.SignUpOutput;
-import com.geekster.doctorApp.model.AppointmentKey;
-import com.geekster.doctorApp.model.Doctor;
-import com.geekster.doctorApp.model.Patient;
-import com.geekster.doctorApp.service.AuthenticationService;
-import com.geekster.doctorApp.service.PatientService;
+import com.geekster.DoctorApp.dto.SignInInput;
+import com.geekster.DoctorApp.dto.SignInOutput;
+import com.geekster.DoctorApp.dto.SignUpInput;
+import com.geekster.DoctorApp.dto.SignUpOutput;
+import com.geekster.DoctorApp.model.AppointmentKey;
+import com.geekster.DoctorApp.model.Doctor;
+import com.geekster.DoctorApp.service.AuthenticationService;
+import com.geekster.DoctorApp.service.PatientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

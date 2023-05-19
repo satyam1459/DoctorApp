@@ -1,4 +1,4 @@
-package com.geekster.doctorApp;
+package com.geekster.DoctorApp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

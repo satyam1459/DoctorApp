@@ -1,7 +1,6 @@
-package com.geekster.doctorApp.model;
+package com.geekster.DoctorApp.model;
 
 public enum Specialization {
-
     ENT,
     ORTHO,
     GYNO,

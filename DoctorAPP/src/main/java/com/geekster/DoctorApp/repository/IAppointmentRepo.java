@@ -1,8 +1,7 @@
-package com.geekster.doctorApp.repository;
+package com.geekster.DoctorApp.repository;
 
-import com.geekster.doctorApp.model.Appointment;
-import com.geekster.doctorApp.model.AppointmentKey;
-import com.geekster.doctorApp.model.Patient;
+import com.geekster.DoctorApp.model.Appointment;
+import com.geekster.DoctorApp.model.AppointmentKey;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface IAppointmentRepo extends JpaRepository<Appointment, AppointmentKey> {

@@ -1,9 +1,9 @@
-package com.geekster.doctorApp.service;
+package com.geekster.DoctorApp.service;
 
 
-import com.geekster.doctorApp.model.Appointment;
-import com.geekster.doctorApp.model.AppointmentKey;
-import com.geekster.doctorApp.repository.IAppointmentRepo;
+import com.geekster.DoctorApp.model.Appointment;
+import com.geekster.DoctorApp.model.AppointmentKey;
+import com.geekster.DoctorApp.repository.IAppointmentRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

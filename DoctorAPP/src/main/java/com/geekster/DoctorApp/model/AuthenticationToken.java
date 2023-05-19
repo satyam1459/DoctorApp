@@ -1,4 +1,4 @@
-package com.geekster.doctorApp.model;
+package com.geekster.DoctorApp.model;
 
 import jakarta.persistence.*;
 import lombok.Data;

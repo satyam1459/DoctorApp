@@ -1,8 +1,8 @@
-package com.geekster.doctorApp.controller;
+package com.geekster.DoctorApp.controller;
 
 
-import com.geekster.doctorApp.model.Appointment;
-import com.geekster.doctorApp.service.AppointmentService;
+import com.geekster.DoctorApp.model.Appointment;
+import com.geekster.DoctorApp.service.AppointmentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

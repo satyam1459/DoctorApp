@@ -1,4 +1,4 @@
-package com.geekster.doctorApp.model;
+package com.geekster.DoctorApp.model;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;

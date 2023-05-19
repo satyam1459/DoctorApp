@@ -1,4 +1,4 @@
-package com.geekster.doctorApp.dto;
+package com.geekster.DoctorApp.dto;
 
 
 import lombok.AllArgsConstructor;
@@ -8,8 +8,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class SignInInput {
+public class SignInOutput {
 
-    private String patientEmail;
-    private String patientPassword;
+    private String status;
+    private String token;
 }

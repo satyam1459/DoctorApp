@@ -1,10 +1,9 @@
-package com.geekster.doctorApp.service;
+package com.geekster.DoctorApp.service;
 
 
-import com.geekster.doctorApp.model.AuthenticationToken;
-import com.geekster.doctorApp.model.Patient;
-import com.geekster.doctorApp.repository.IPatientRepo;
-import com.geekster.doctorApp.repository.ITokenRepo;
+import com.geekster.DoctorApp.model.AuthenticationToken;
+import com.geekster.DoctorApp.model.Patient;
+import com.geekster.DoctorApp.repository.ITokenRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

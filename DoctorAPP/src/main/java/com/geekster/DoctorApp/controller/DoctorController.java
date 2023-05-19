@@ -1,9 +1,9 @@
-package com.geekster.doctorApp.controller;
+package com.geekster.DoctorApp.controller;
 
 
-import com.geekster.doctorApp.model.Appointment;
-import com.geekster.doctorApp.model.Doctor;
-import com.geekster.doctorApp.service.DoctorService;
+import com.geekster.DoctorApp.model.Appointment;
+import com.geekster.DoctorApp.model.Doctor;
+import com.geekster.DoctorApp.service.DoctorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

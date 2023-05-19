@@ -1,18 +1,17 @@
-package com.geekster.doctorApp.service;
+package com.geekster.DoctorApp.service;
 
 
-import com.geekster.doctorApp.dto.SignInInput;
-import com.geekster.doctorApp.dto.SignInOutput;
-import com.geekster.doctorApp.dto.SignUpInput;
-import com.geekster.doctorApp.dto.SignUpOutput;
-import com.geekster.doctorApp.model.AppointmentKey;
-import com.geekster.doctorApp.model.AuthenticationToken;
-import com.geekster.doctorApp.model.Doctor;
-import com.geekster.doctorApp.model.Patient;
-import com.geekster.doctorApp.repository.IPatientRepo;
+import com.geekster.DoctorApp.dto.SignInInput;
+import com.geekster.DoctorApp.dto.SignInOutput;
+import com.geekster.DoctorApp.dto.SignUpInput;
+import com.geekster.DoctorApp.dto.SignUpOutput;
+import com.geekster.DoctorApp.model.AppointmentKey;
+import com.geekster.DoctorApp.model.AuthenticationToken;
+import com.geekster.DoctorApp.model.Doctor;
+import com.geekster.DoctorApp.model.Patient;
+import com.geekster.DoctorApp.repository.IPatientRepo;
 import jakarta.xml.bind.DatatypeConverter;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.security.MessageDigest;
